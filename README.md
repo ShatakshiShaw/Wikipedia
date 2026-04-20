@@ -59,6 +59,15 @@ On Enabling Dark Mode
 <br>
 <br>
 <br>
+Objective:-
+<br>
+<br>
+This project was built to strengthen my front-end development skills by replicating a real-world website (Wikipedia).
+<br>
+It focuses on layout design, responsiveness, and clean user interface development.
+<br>
+<br>
+<br>
 Author:-
 <br>
 Shatakshi Shaw
