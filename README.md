@@ -7,6 +7,21 @@ It replicates the basic layout and design of the original site.
 <br>
 <br>
 <br>
+Live Demo Link:-
+<br>
+https://shatakshishaw.github.io/Wikipedia/
+<br>
+<br>
+<br>
+Objective:-
+<br>
+<br>
+This project was built to strengthen my front-end development skills by replicating a real-world website (Wikipedia).
+<br>
+It focuses on layout design, responsiveness, and clean user interface development.
+<br>
+<br>
+<br>
 Features:-
 <br>
 <br>
@@ -29,21 +44,6 @@ Tech Stack:-
 <br>
 <br>
 <br>
-How to Run?
-<br>
-<br>
-->Download or clone this repository
-<br>
-->Open index.html in your browser
-<br>
-<br>
-<br>
-Live Demo Link:-
-<br>
-https://shatakshishaw.github.io/Wikipedia/
-<br>
-<br>
-<br>
 Preview:-
 <br>
 <br>
@@ -59,12 +59,12 @@ On Enabling Dark Mode
 <br>
 <br>
 <br>
-Objective:-
+How to Run?
 <br>
 <br>
-This project was built to strengthen my front-end development skills by replicating a real-world website (Wikipedia).
+->Download or clone this repository
 <br>
-It focuses on layout design, responsiveness, and clean user interface development.
+->Open index.html in your browser
 <br>
 <br>
 <br>
