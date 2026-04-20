@@ -1,7 +1,7 @@
 Wikipedia Clone
 <br>
 <br>
-A responsive front-end clone of Wikipedia built using HTML, CSS, and JavaScript. 
+A front-end clone of Wikipedia built using HTML, CSS, and JavaScript. 
 <br>
 It replicates the basic layout and design of the original site.
 <br>
