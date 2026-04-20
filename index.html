@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godavari | The Dakshina Ganga</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="sidebar">
+        <div class="sidebar-brand">RiverWiki</div>
+        
+        <button id="theme-toggle">ENABLE DARK MODE</button>
+
+        <ul class="nav-menu">
+            <li><a href="#overview">Introduction</a></li>
+            <li><a href="#location">Location & Extent</a></li>
+            <li><a href="#stats">Drainage Statistics</a></li>
+            <li><a href="#tributaries">Hydrology</a></li>
+            <li><a href="#dams">Major Dams</a></li>
+            <li><a href="#culture">Cities & Culture</a></li>
+            <li><a href="#map">Basin Map</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-wrapper">
+        
+        <header id="overview">
+            <h1 class="main-title">Godavari River</h1>
+            <p class="tagline">The second longest river in India and the lifeline of Peninsular India.</p>
+            
+            <div class="hero-divider"></div>
+
+            <aside class="infobox">
+                <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTOPEMPTsp-585mNuLNgQQ_hsYn5f2oHpK-gHa9B2bKnXLpSL3iy7hAbTCz7JKqIitVkXoEQHLIr5iS6Tn5PaaNdNdOsrT94LQo0KLZqg" alt="Godavari River View">
+                <div class="infobox-header">River Statistics</div>
+                <table>
+                    <tr><th>Source</th><td>Nashik, Maharashtra</td></tr>
+                    <tr><th>Mouth</th><td>Bay of Bengal</td></tr>
+                    <tr><th>Length</th><td>1,465 km</td></tr>
+                    <tr><th>Basin Area</th><td>312,812 km²</td></tr>
+                </table>
+            </aside>
+
+            <section class="prose">
+                <p>The <strong>Godavari River</strong> is an important river in India flowing from western to southern India. It is the largest river in peninsular India and has been dubbed as the <strong>Dakshina Ganga</strong>.</p>
+            </section>
+        </header>
+
+        <section id="location">
+            <h2>Location and Extent</h2>
+            <p>Rising in the Western Ghats near Nashik, it lies between 73°24’ to 83°4’ E longitudes and 16°19’ to 22°34’ N latitudes. It accounts for nearly 9.5% of the total geographical area of India.</p>
+        </section>
+
+        <section id="stats">
+            <h2>Drainage Statistics</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>State / UT</th>
+                        <th>Drainage Area (sq. km)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Maharashtra</td><td>152,199</td></tr>
+                    <tr><td>Telangana</td><td>62,150</td></tr>
+                    <tr><td>Andhra Pradesh</td><td>11,048</td></tr>
+                    <tr><td>Chhattisgarh</td><td>33,434</td></tr>
+                    <tr><td>Madhya Pradesh</td><td>31,821</td></tr>
+                    <tr><td>Odisha</td><td>17,752</td></tr>
+                    <tr><td>Karnataka</td><td>4,405</td></tr>
+                    <tr class="total-row"><td><strong>Total</strong></td><td><strong>3,12,812</strong></td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="tributaries">
+            <h2>Hydrology & Tributaries</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Left Bank</h3>
+                    <p>Purna, Wardha, Wainganga, Indravati, and Sabari rivers. The Pranahita is the largest tributary.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Right Bank</h3>
+                    <p>Pravara, Manjra, and Maner rivers. The Manjra is the longest right-bank tributary.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dams">
+            <h2>Major Dams & Projects</h2>
+            <div class="list-container">
+                <div class="list-item"><strong>Jayakwadi Dam:</strong> One of the largest earthen dams in India (Maharashtra).</div>
+                <div class="list-item"><strong>Sri Ram Sagar:</strong> A multipurpose project in Telangana.</div>
+                <div class="list-item"><strong>Polavaram Project:</strong> National project in Andhra Pradesh.</div>
+            </div>
+        </section>
+
+        <section id="culture">
+            <h2>Culture & Cities</h2>
+            <div class="city-grid">
+                <div class="city-card">
+                    <h4>Nashik</h4>
+                    <p>Host to the Kumbh Mela and the source of the river.</p>
+                </div>
+                <div class="city-card">
+                    <h4>Nanded</h4>
+                    <p>Significant religious site home to Hazur Sahib Gurudwara.</p>
+                </div>
+                <div class="city-card">
+                    <h4>Rajahmundry</h4>
+                    <p>Known for the Godavari Pushkaralu and grand bridges.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="map">
+            <h2>Route Representation</h2>
+            <div class="map-container">
+                <img src="https://www.mapsofindia.com/maps/rivers/godavari-river-map.jpg" alt="Godavari Map">
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const btn = document.getElementById('theme-toggle');
+        btn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            if(document.body.classList.contains('dark-theme')) {
+                btn.textContent = 'ENABLE LIGHT MODE';
+            } else {
+                btn.textContent = 'ENABLE DARK MODE';
+            }
+        });
+    </script>
+</body>
+</html>
